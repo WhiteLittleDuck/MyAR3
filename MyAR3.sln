@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRSDK", "NRSDK.csproj", "{63465dc6-5876-c423-46cd-e76a7ea0adc0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1c1a96da-7f3a-d436-3726-2ab4a381671e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRSDKEditor", "NRSDKEditor.csproj", "{56cafe3e-031f-88dd-c275-44aa13b4b40a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{508fdfc1-aed4-aa1f-5e0f-cc8c1eb7f0c2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63465dc6-5876-c423-46cd-e76a7ea0adc0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63465dc6-5876-c423-46cd-e76a7ea0adc0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1c1a96da-7f3a-d436-3726-2ab4a381671e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1c1a96da-7f3a-d436-3726-2ab4a381671e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56cafe3e-031f-88dd-c275-44aa13b4b40a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56cafe3e-031f-88dd-c275-44aa13b4b40a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508fdfc1-aed4-aa1f-5e0f-cc8c1eb7f0c2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508fdfc1-aed4-aa1f-5e0f-cc8c1eb7f0c2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
