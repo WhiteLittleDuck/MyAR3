@@ -219,30 +219,9 @@ Script position: `GameObject DClockbomb_Aged>PbcBoard`:  **UpperController.cs** 
 
 **Text to speech Token**: `GameObject TextToSpeech: TextToSpeech.cs>Subkey/Region/ResourceName`
 
-## Themes
-
-Please refer to `Help` → `Custom Themes` from menu bar.
-
-## Publish
-
-Currently Typora only support to export as **PDF** or **HTML**. More data format support as import/export will be integrated in future.
-
-## Auto Save and File Recovery
-
-Typora support  auto save feature, user could enable it from preference panel. 
-
-Typora does not provide professional version control and file backup feature, but typora would backup the last file content from time to time automatically, so even when typora crashes or users forget to save the file before close, it is possible to recovery most of the work by clicking `Recovery Unsaved Drafts` from preference folder, and copy out backed-up files. The File name in this folder is consists of last saved date, originally file name and last saved timestamp.
-
-## More Useful Tips & Documents
-
-<https://support.typora.io/>
 
 ## And More ?
 
 For more questions or feedbacks, please contact us by:
 
-- Home Page: http://typora.io
-- Email: <hi@typora.io>
-- Twitter [@typora](https://twitter.com/typora)
-
-We opened a Github issue page in case you want to start a discussion or as an alternative way to report bugs/suggestions: https://github.com/typora/typora-issues/issues
+- Email: oliviazhou1999@gmail.com
