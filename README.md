@@ -172,6 +172,8 @@ Message has two basic types, terminal information (tdata) and communication info
   + T=-2 means it is a communication into, sent after receiving AR help request.
   + Six 0-1 digits of right side terminal highlight and six for left side. 0: default, 1: highlight.
   + One digit indicate the index of button to be highlight.
+  + Splitor between text: #. Space are allowed in the speech text.
+  + **Note**: even no speech text, the splitor # is required. 
 
 ## Color coding
 
