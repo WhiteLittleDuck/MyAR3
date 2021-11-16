@@ -49,7 +49,7 @@ public class TestSocket : MonoBehaviour {
     private int buttonHightlight=-1; //only one button highlight
     private string[] readContent=new string[2]; //left hint text and right hint text  
     
-    //indicator of the type of receiving messages
+    //type status (T): (first digit of message reveiced)indicator of the type of receiving messages
     //-2: communication info; others(-1,0,1,2,3): terminal info
     //-1: explode
     //0: continue
@@ -58,18 +58,22 @@ public class TestSocket : MonoBehaviour {
     //3: time out and explode
     private int status;
     
-    public bool tutorialMode; //indicate wheter the program are in tutorial
+    //indicate wheter the program are in tutorial
+    //0: in tutorial mode
+    //1: in game mode, not ready
+    //2:ready
+    public int mode; 
     // status in tutorial mode
     // 1: start; 
     public int tutorialCode=0; 
 
-    //tutorial data
-    //             s|    left side color    |    right side color   |    btn    |
+    //tutorial data s-> type status
+    //             T|    left side color    |    right side color   |    btn    |
     //             1|1 1|2 2|3 3|4 4|5 5|6 6|1 1|2 2|3 3|4 4|5 5|6 6|1 2 3 4 5 6
     string tdata0="2$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$1$0$0$0$0$0$0$0";
     string tdata1="0$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$2$1$0$0$0$0$0";
     string tdata2="0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$0$1$1$0$0$0$0";
-    //              s| left h    | right h   |d| text     #  text   |
+    //              T|L highlight|R Highlight|B|  R text  # L text |
     //              1|1 2 3 4 5 6|1 2 3 4 5 6|1| 
     string cdata0="-2$1$1$0$0$0$1$1$0$0$0$0$0$0$right text#lefttext";
     string cdata1="-2$1$1$0$0$0$1$0$1$0$0$0$1$1$right text#lefttext";
@@ -83,7 +87,7 @@ public class TestSocket : MonoBehaviour {
         sideHightlight=new int[terminalCnt*2];
         buttonHightlight=-1;
         readContent=new string[2];
-        tutorialMode=true;
+        mode=0;
         
         bomb.SetActive(false);
         canvasReady.SetActive(false);
@@ -180,10 +184,11 @@ public class TestSocket : MonoBehaviour {
             //terminal info
                 helpButton.GetComponent<UnityEngine.UI.Button>().interactable  = true;
                 comfirmButton.GetComponent<UnityEngine.UI.Button>().interactable  = true;
-            UpperController.instance.endConfirm();
+                UpperController.instance.endConfirm();
             if(status==1){
                 //defuse
-                readyStatus.GetComponent<Text>().text="DEFUSED~";
+                mode=1;
+                readyStatus.GetComponent<Text>().text="DIFFUSED~";
                 bomb.SetActive(false);
                 canvasReady.SetActive(true);
                 hintText.GetComponent<Text>().alignment = TextAnchor.MiddleCenter;
@@ -192,6 +197,7 @@ public class TestSocket : MonoBehaviour {
             }
             if(status==-1){
                 //explode
+                mode=1;
                 readyStatus.GetComponent<Text>().text="EXPLODED!!!";
                 bomb.SetActive(false);
                 canvasReady.SetActive(true);
@@ -275,6 +281,7 @@ public class TestSocket : MonoBehaviour {
         string sendData = "ready";
         mySocket.Send(Encoding.UTF8.GetBytes(sendData));
         tutorialCode=99;
+        mode=2;
     }
 
     //signify sever human needs help
@@ -284,6 +291,7 @@ public class TestSocket : MonoBehaviour {
 
     //signify sever bomb times out and explode
     public void timeout(){
+        mode=1;
         string sendData = "9";
         mySocket.Send(Encoding.UTF8.GetBytes(sendData));
         readyStatus.GetComponent<Text>().text="TIMEOUT\nEXPLODED!!!";

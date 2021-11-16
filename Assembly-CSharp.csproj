@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1c1a96da-7f3a-d436-3726-2ab4a381671e}</ProjectGuid>
+    <ProjectGuid>{6e1baf9d-3c17-04ff-4004-9352a4c5c46b}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -37,155 +37,25 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\ClientSocket.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
      <Compile Include="Assets\UpperController.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
      <Compile Include="Assets\TestSocket.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
      <Compile Include="Assets\RightTerminalsController.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
      <Compile Include="Assets\CountDown.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
      <Compile Include="Assets\startButton.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
      <Compile Include="Assets\UserDefineButton2.cs" />
      <Compile Include="Assets\ByteBuffer.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\Dynamic Sky Lite\DynamicSkyLite.cs" />
      <Compile Include="Assets\TextToSpeechController.cs" />
+     <Compile Include="Assets\SkipButton.cs" />
      <Compile Include="Assets\DisfuseController.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\FPS Counter\FPSCounter.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
      <Compile Include="Assets\ReadyButton.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Other\Scripts\Underwater.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
      <Compile Include="Assets\ConfirmButton.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Other\Scripts\Shark.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Simple Boids\NVBoids.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Other\Scripts\SlowMo.cs" />
      <Compile Include="Assets\BombController.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\Water Shader SAF\Water.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
      <Compile Include="Assets\LeftTerminalsController.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Other\Scripts\TDControl.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
      <Compile Include="Assets\HelpButton.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
      <Compile Include="Assets\HelpButtonController.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
      <Compile Include="Assets\TerminalsController.cs" />
      <Compile Include="Assets\PositionTestController.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
      <Compile Include="Assets\ExplodedController.cs" />
-     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
-     <Compile Include="Assets\SkipButton.cs" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\SC Shaders (Legacy)\SC Shader (Cutout. Normalmap, Reflection, Cull Off).shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\Water Shader SAF\Water Shader Type 2.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\Jelly Sprite\Jelly Sprite.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
-     <None Include="Assets\#NVJOB Boids\license_nvjob.txt" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\Dynamic Sky Lite\Dynamic Sky Lite Standard Clouds Type 2.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\SkyBox Two Colors\SkyBox Two Colors.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\SC Shaders (Legacy)\SC Shader (Transparent. Normalmap, Reflection, Cull Off).shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\Alpha Flashing\Alpha Flashing Sprite.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
-     <None Include="Assets\#NVJOB Boids\Simple Boids\Fish NX Shaders.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\SC Shaders (Legacy)\SC Shader (Normalmap, Occlusion, Reflection, Cull Off).shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
-     <None Include="Assets\#NVJOB Boids\license_unity.txt" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
-     <None Include="Assets\#NVJOB Boids\Simple Boids\Bird NX Shaders.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\SC Shaders (Legacy)\SC Shader for water.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\SC Shaders (Legacy)\SC Shader (Normalmap, Reflection, Cull Off).shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\NVJOB Assets\Dynamic Sky Lite\Dynamic Sky Lite Standard Horizon.shader" />
-     <None Include="Assets\#NVJOB Boids\README.txt" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
-     <None Include="Assets\#NVJOB Boids\Example Scenes\Other\Sounds\Sound license.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Software/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -400,13 +270,13 @@
         <HintPath>D:/Software/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Assets/NRSDK/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Assets/NRSDK/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="LitJSON">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Assets/NRSDK/Plugins/LitJSON.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Assets/NRSDK/Plugins/LitJSON.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:/Software/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -757,43 +627,43 @@
         <HintPath>D:/Software/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/Projects/Unity/restore/MyAR3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>D:/Projects/Unity/try_tutorial/Bomb_AR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NRSDKEditor.csproj">
-      <Project>{56cafe3e-031f-88dd-c275-44aa13b4b40a}</Project>
+      <Project>{3220a126-44e9-7f12-277b-feda3e70d7cd}</Project>
       <Name>NRSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NRSDK.csproj">
-      <Project>{63465dc6-5876-c423-46cd-e76a7ea0adc0}</Project>
+      <Project>{373e4703-7d16-4556-ba25-ac076b9bbafe}</Project>
       <Name>NRSDK</Name>
     </ProjectReference>
   </ItemGroup>

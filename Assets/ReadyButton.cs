@@ -20,7 +20,7 @@ namespace NRKernal.NRExamples
         public Action<string> OnClick;
 
         public void OnPointerClick(PointerEventData eventData){
-            CountDown.instance.TotalTime=120;
+            CountDown.instance.resetTimer();
             // TextToSpeechController.instance.audioSource.Pause();
             TestSocket.instance.sendReady();
         }

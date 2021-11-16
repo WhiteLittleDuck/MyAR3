@@ -9,25 +9,23 @@ using System;
 [RequireComponent(typeof(AudioSource))]
 public class TextToSpeechController : MonoBehaviour
 {
+    public static TextToSpeechController instance;
+    // Test panel: GameObject> CanvasTest>Panel>testText
     public GameObject textt;
 
-
+    // got from Azure
+    private string accessToken; 
     public string subKey;
     public string region;
     public string resourceName;
 
+    // pre-upload without using interfaces
     public AudioClip explodedClip;
     public AudioClip diffusedClip;
 
-    private string accessToken;
     public AudioSource audioSource;
 
-    public static TextToSpeechController instance;
-    // Start is called before the first frame update
-    void Start(){
-    }
-
-    // Update is called once per frame
+    void Start(){}
     void Update(){}
     void Awake(){
         instance=this;
@@ -60,9 +58,7 @@ public class TextToSpeechController : MonoBehaviour
     }
 
     public void readText(string text){
-        // if(accessToken == null){
         StartCoroutine(GetSpeech(text));
-        // }
     }
 
     public IEnumerator GetSpeech(string text){
@@ -97,7 +93,6 @@ public class TextToSpeechController : MonoBehaviour
         // textt.GetComponent<Text>().text="0";
 
         // play the audio
-        // StartCoroutine(PlayTTS(webReq.downloadHandler.data));
         PlayTTS2(webReq.downloadHandler.data);
     }
 
@@ -125,28 +120,29 @@ public class TextToSpeechController : MonoBehaviour
     //     }catch(Exception ex){
     //         textt.GetComponent<Text>().text=ex.Message+"";
     //     }
-
-
     // }
+
+    // play the audio data as sppech
     private void PlayTTS2(byte[] audioData){
         audioSource.Stop();
         AudioClip ttsClip = AudioClip.Create("mySound", audioData.Length, 1, 24000, false,false);
         ttsClip.SetData(bytesToFloat(audioData), 0);
         audioSource.PlayOneShot(ttsClip);
-
     }
 
+    // play the audio source: explode
     public void explode(){
         audioSource.Stop();
         audioSource.PlayOneShot(explodedClip);
     }
 
+    // play the audio source: diffuse
     public void diffuse(){
         audioSource.Stop();
         audioSource.PlayOneShot(diffusedClip);
     }
 
-    public static float[] bytesToFloat(byte[] byteArray)//byte[]数组转化为AudioClip可读取的float[]类型
+    public static float[] bytesToFloat(byte[] byteArray)// contert byte[] into float[] that is readable for AudioClip
     {
         float[] sounddata = new float[byteArray.Length / 2];
         for (int i = 0; i < sounddata.Length; i++)
@@ -157,7 +153,7 @@ public class TextToSpeechController : MonoBehaviour
     }
       static float bytesToFloat(byte firstByte, byte secondByte) {
              // convert two bytes to one short (little endian)
-	         //小端和大端顺序要调整
+	         // adjust the big-end and small-end order
 			 short s;
 			 if (BitConverter.IsLittleEndian)
 			             s = (short)((secondByte << 8) | firstByte);

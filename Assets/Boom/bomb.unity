@@ -5584,8 +5584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6e6295214099704bbf9b924f888699f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addr: 172.17.122.195
-  port: 12345
+  addr: 127.0.0.1
+  port: 12346
   testText: {fileID: 2049597463}
   hintText: {fileID: 917432469}
   helpButton: {fileID: 1123378093}
@@ -5597,7 +5597,7 @@ MonoBehaviour:
   readyButton: {fileID: 515567840}
   canvasTutorial: {fileID: 535824454}
   tutorialStatus: {fileID: 1743693322}
-  tutorialMode: 0
+  mode: 0
   tutorialCode: 1
 --- !u!4 &1148125313
 Transform:
@@ -6494,7 +6494,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323975707}
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 748620241}
@@ -6532,7 +6532,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b1a2d9f9c9758e849aa9df0018a093fa, type: 2}
+  - {fileID: 2100000, guid: a76605e2baed2d54e9925fcda12e78c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6865,7 +6865,7 @@ MonoBehaviour:
   leftDetector: {fileID: 506801100}
   rightDetector: {fileID: 1141780817}
   text: {fileID: 1760354181}
-  TotalTime: 120
+  TimeSetting: 0
 --- !u!4 &1375744073
 Transform:
   m_ObjectHideFlags: 0
@@ -7815,7 +7815,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a76605e2baed2d54e9925fcda12e78c0, type: 2}
+  - {fileID: 2100000, guid: b1a2d9f9c9758e849aa9df0018a093fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8858,7 +8858,7 @@ GameObject:
   - component: {fileID: 2016284937}
   - component: {fileID: 2016284936}
   m_Layer: 5
-  m_Name: SpeakerCanvas
+  m_Name: CanvasSpeaker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

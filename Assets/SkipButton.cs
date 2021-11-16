@@ -22,7 +22,7 @@ namespace NRKernal.NRExamples
         public void OnPointerClick(PointerEventData eventData){
             // CountDown.instance.TotalTime=120;
             // // TextToSpeechController.instance.audioSource.Pause();
-            TestSocket.instance.tutorialMode=false;
+            TestSocket.instance.mode=1;
             TestSocket.instance.startConnect();
         }
     }

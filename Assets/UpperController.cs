@@ -59,12 +59,12 @@ public class UpperController : MonoBehaviour{
             Debug.Log("Must Select Something!");
             return;
         }
-        if(TestSocket.instance.tutorialMode){
+        if(TestSocket.instance.mode==0){
             TestSocket.instance.tutorialConfirm(select);
             buttons[select].cancelSelect();
             select=-2;
 
-        }else{
+        }else if (TestSocket.instance.mode==2){
             confirmming=true;
             TestSocket.instance.sendHumanControl(select);
         }
@@ -91,7 +91,7 @@ public class Button : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler,
     public void setButton(int i){
         if(i==0) i=1;
         else i=0;
-        transform.GetChild(0).gameObject.transform.GetComponent<MeshRenderer>().material.color = colors[i];
+        transform.GetChild(0).gameObject.transform.GetComponent<MeshRenderer>().material.color = colors[i]; 
         status=i;
     }
 

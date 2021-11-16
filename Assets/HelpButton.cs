@@ -13,9 +13,9 @@ namespace NRKernal.NRExamples
         public GameObject rightDetector;
 
         public void OnPointerClick(PointerEventData eventData){
-            if(TestSocket.instance.tutorialMode){
+            if(TestSocket.instance.mode==0){
                 TestSocket.instance.tutorialHelp();
-            }else{
+            }else if (TestSocket.instance.mode==2){
                 var pos = camera.transform.position.x;
                 var leftPos=leftDetector.transform.position.x;
                 var rightPos=rightDetector.transform.position.x;
