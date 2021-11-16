@@ -64,12 +64,13 @@ Bomb consist of right side terminals and left side terminals, buttons panel and 
   + Script: `GameObject: DClockbomb_Aged>Terminals: TerminalsController.cs`
   + Structure: 6 terminals. Each terminal has left side and right side. Each side have two lines (upper line and lower line) which can show different colors.
   + Highlight: Each terminal can highlight in its left side and its right side.
-  + Terminal indexing: [To do] 
+  + Terminal indexing: ![index order of left terminal](img/index_terminal_left.png) ![index order of right terminal](img/index_terminal_right.png)
 + Button panel:
   + Script `GameObject: DClockbomb_Aged>PbcBoard>UpperPane: UpperController.cs`
   + Structure: 6 buttons. 
   + Status: not selectable, selected, focused, highlight. Some buttons cannot be selected because they are previously selected. 
-  + Button indexing: [To do]
+  + Button indexing: ![index order of button](img/index_button.png)
+
 + Timer:
   + Script `GameObject: CountDown: CountDown.cs`
   + Only start to count at game mode. Timer doesn't work at tutorial mode and the time waiting for ready.
@@ -105,9 +106,7 @@ reference tutorial: https://blog.csdn.net/Clovera/article/details/82705193
 
 ## Game Process
 
-### Tutorial Mode
-
-[to do]
+![IFlow Chart of the Game](img/AR_Flow_Chart.png)
 
 ## Format of Messages
 
